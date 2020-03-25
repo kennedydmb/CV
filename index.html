@@ -10,31 +10,48 @@
         type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
     <!-- Top of CV -->
     <div class="container-fluid default-font">
+
         <!-- First row of CV displaying profile picture, name, and personal information -->
         <div class="row xs-text">
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+
             <!-- Profile picture -->
             <div class="col-4 col-sm-4 col-md-3 col-lg-2 profile-picture"></div>
+
             <!-- Name, title, contact info, repos -->
             <div class="col-8 col-sm-8 col-md-9 col-lg-10 personal-info">
+
                 <!-- Name -->
                 <p class="my-name">Darren Kennedy</p>
+
                 <!-- Title -->
                 <p>Junior Full Stack Software Developer</p>
+
                 <!-- Contact info and links to LinkedIn and GitHub -->
                 <div>
-                    <!-- Email and LinkedIn --> 
+
+                    <!-- Email and LinkedIn -->
                     <div class="row">
-                        <span class="d-none d-md-block col-md-6"><a href="mailto:kennedy.dmb@gmail.com?subject=Contact&body=Message"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-                            kennedy.dmb@gmail.com</a></span>
+                        <span class="d-none d-md-block col-md-6"><a
+                                href="mailto:kennedy.dmb@gmail.com?subject=Contact&body=Message"><i
+                                    class="fa fa-envelope-o" aria-hidden="true"></i>
+                                kennedy.dmb@gmail.com</a></span>
                         <span class="d-none d-md-block col-md-6"><i class="fa fa-linkedin-square"
                                 aria-hidden="true"></i>
                             <a href="http://www.linkedin.com/in/kennedydmb">linkedin.com/in/kennedydmb</a></span>
                     </div>
+
                     <!-- Phone number and GitHub -->
                     <div class="row">
                         <span class="d-none d-md-block col-md-6"><i class="fa fa-phone-square" aria-hidden="true"></i>
@@ -45,14 +62,16 @@
                 </div>
             </div>
         </div>
+
         <!-- Second row of CV containing work history, skills, education, and other information -->
         <div class="row xs-text">
-            <div class="col-4 col-sm-4 col-md-3 col-lg-2 personal-info">
+            <!-- Skills section on md and larger-->
+            <div class="d-none d-md-block col-md-3 col-lg-2 personal-info">
+
                 <!-- Skills -->
-                <p></p>
-                <p>PROFESSIONAL SKILLS</p>
-                <hr class="white-line"/>
-                <p>Management Skills</p>
+                <h5><b>PROFESSIONAL SKILLS</b></h5>
+                <hr class="white-line" />
+                <p><b>Management Skills</b></p>
                 <ul>
                     <li>Customer relations</li>
                     <li>Problem solving</li>
@@ -61,7 +80,7 @@
                     <li>Training, mentoring, and coaching</li>
                     <li>Health safety and compliance</li>
                 </ul>
-                <p>Technical Skills</p>
+                <p><b>Technical Skills</b></p>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -78,65 +97,73 @@
                     <li>AWS</li>
                     <li>Travis</li>
                 </ul>
+
                 <!-- Interests -->
-                <p>INTERESTS</p>
-                <hr class="white-line"/>
+                <h5><b>INTERESTS</b></h5>
+                <hr class="white-line" />
                 <ul>
                     <li>Activities: Chess, hillwalking</li>
                     <li>Shows: The Office, Parks and Rec</li>
                     <li>Movies: MCU, Sci-Fi, Comedies</li>
                     <li>Games: Borderlands, Resident Evil, Crash Bandicoot, Doom</li>
                 </ul>
+
                 <!-- References -->
-                <p>REFERENCES</p>
-                <hr class="white-line"/>
+                <h5><b>REFERENCES</b></h5>
+                <hr class="white-line" />
                 <p>Available on request</p>
             </div>
+
             <!-- Work history, education, key achievements, and project summaries -->
-            <div class="col-8 col-sm-8 col-md-9 col-lg-10">
+            <div class="col-12 col-md-9 col-lg-10">
                 <!-- Personal statement -->
-                <div>
-                    <p></p>
-                    <p><b>PERSONAL STATEMENT</b></p>
-                    <hr/>
+                <div class="col-12">
+                    <h5><b>PERSONAL STATEMENT</b></h5>
+                    <hr />
                     <p>A confident and highly self-motivated individual with supervisory and management skill sets
                         acquired
-                        within a highly competitive global retail brand. In depth knowledge and experience in a customer
+                        within a highly competitive global retail brand. In depth knowledge and experience in a
+                        customer
                         focused
                         environment.
 
-                        Quick thinking, resourceful, efficient and methodical in terms of managing people and processes
+                        Quick thinking, resourceful, efficient and methodical in terms of managing people and
+                        processes
                         in a
-                        branch environment. Now seeking to combine experience and IT skill sets towards the creative and
+                        branch environment. Now seeking to combine experience and IT skill sets towards the creative
+                        and
                         digital
                         industries having recently completed a full stack web development course.</p>
                 </div>
                 <!-- Education -->
-                <div>
-                    <p><b>EDUCATION</b></p>
-                    <hr/>
+                <div class="col-12">
+                    <h5><b>EDUCATION</b></h5>
+                    <hr />
                     <p><b>Diploma in Software Development (First Class Honours) – Edinburgh Napier University</b>
                         <i>October 2019</i></p>
                     <p>Developing front-end website architecture. Designing user interactions on web pages.
                         Developing back end website applications. Creating servers and databases for functionality.
-                        Ensuring cross platform optimisation for mobile phones. Ensuring responsiveness of applications.
+                        Ensuring cross platform optimisation for mobile phones. Ensuring responsiveness of
+                        applications.
                         Working alongside graphic designers for web design features. Seeing through a project from
                         conception to finished product. Designing and developing APIs. Meeting both technical and
-                        consumer needs. Keeping abreast of developments in web applications and programming languages.
+                        consumer needs. Keeping abreast of developments in web applications and programming
+                        languages.
                     </p>
                     <p>Bachelor of Engineering (B.Eng. 2:2) Audio and Video Engineering – University of Glasgow
                         June 2013
                     </p>
-                    <p>Wide-ranging curriculum which includes courses in analogue and digital electronics, mathematics,
+                    <p>Wide-ranging curriculum which includes courses in analogue and digital electronics,
+                        mathematics,
                         dynamics, materials, thermodynamics and engineering skills.</p>
                 </div>
                 <!-- Work history -->
-                <div>
-                    <p><b>WORK HISTORY</b></p>
-                    <hr/>
-                    <p>Assistant Manager
-                        Domino’s Pizza Group – Global food retail brand – Various branches central Scotland.
-                        2008 - Present
+                <div class="col-12">
+                    <h5><b>WORK HISTORY</b></h5>
+                    <hr />
+                    <p><b>Assistant Manager
+                            Domino’s Pizza Group – Global food retail brand – Various branches central Scotland.</b>
+                        <i>2008 - Present</i>
                     </p>
                     <p>Manage, motivate staff, recruit staff, train and develop staff according to company
                         policies and employment laws and managing the store’s crew in a way which encourages
@@ -148,66 +175,133 @@
                         deliveries are correctly checked, stored and entered into the computer system. </p>
                     <p>Managing health & safety, security and emergency systems, staff and customer awareness
                         system according to company policy and relevant laws.</p>
-                    <p>Attending meetings and contributing to the company strategy and policy decisions as required.</p>
+                    <p>Attending meetings and contributing to the company strategy and policy decisions as required.
+                    </p>
                 </div>
                 <!-- Key achievements -->
-                <div>
-                    <p><b>KEY ACHIEVEMENTS</b></p>
-                    <hr/>
+                <div class="col-12">
+                    <h5><b>KEY ACHIEVEMENTS</b></h5>
+                    <hr />
                     <p>Resolving cash balance inconsistencies in branch.
                         On arriving at a branch and reviewing recent accounting reports there was a number of
                         unexplained errors and inconsistencies in cash balancing.
-                        Undertook some analysis and investigation and observed staff actions, and identified a lack of
+                        Undertook some analysis and investigation and observed staff actions, and identified a lack
+                        of
                         process being followed.
                     </p>
-                    <p>Solution: Developed spreadsheet toolkit, and process map for staff to follow which resulted in
+                    <p>Solution: Developed spreadsheet toolkit, and process map for staff to follow which resulted
+                        in
                         significantly reducing cash balancing errors and inconsistencies.</p>
                     <p>Improving structure and organisation.
                         Strong commitment to maintaining continuous improvement wherever possible.
                     </p>
-                    <p>Identified improvements to branch layout making relevant stock more easily accessible to delivery
+                    <p>Identified improvements to branch layout making relevant stock more easily accessible to
+                        delivery
                         drivers which reduced packing time and degradation of product quality.</p>
                     <p>At another branch identified improvements in stock control inventory methodology resulting
                         reduced wastage and risk of products going out of date.</p>
                 </div>
                 <!-- Project summary -->
-                <div>
-                    <p><b>PROJECT SUMMARY</b></p>
-                    <hr/>
-                    <p>User Centric Frontend – Century Thirteen Band Website
-                        HTML / CSS / Bootstrap
-                        This website allows existing and new fans to discover a bit about the band "Century Thirteen".
-                        It's a place to find information about the band’s latest ventures and future gigs. It allows
-                        fans to discover the newest songs and bands origins. It provides a gateway for Century
-                        Thirteen's social media accounts. Potential bookers can easily contact the band.
+                <div class="col-12">
+                    <h5><b>PROJECT SUMMARY</b></h5>
+                    <hr />
+                    <p><b>User Centric Frontend – Century Thirteen Band Website</b>
+                        <i>HTML / CSS / Bootstrap</i>
+                        <p>This website allows existing and new fans to discover a bit about the band "Century
+                            Thirteen".
+                            It's a place to find information about the band’s latest ventures and future gigs. It allows
+                            fans to discover the newest songs and bands origins. It provides a gateway for Century
+                            Thirteen's social media accounts. Potential bookers can easily contact the band.</p>
                     </p>
-                    <p>Interactive Frontend – Pizza Company Staff Dashboard
-                        HTML / CSS / JS / DC.js / D3.js / Bootstrap
-                        An interactive front-end site that responds to the users' actions, allowing users to actively
-                        engage with data, alter the way the site displays the information to achieve their preferred
-                        goals. An application were users are able to derive answers to their specific questions. A
-                        service in which the site owner advances their own goals by providing this functionality,
-                        potentially by being a regular user themselves.
+                    <p><b>Interactive Frontend – Pizza Company Staff Dashboard</b>
+                        <i>HTML / CSS / JS / DC.js / D3.js / Bootstrap</i>
+                        <p>An interactive front-end site that responds to the users' actions, allowing users to
+                            actively
+                            engage with data, alter the way the site displays the information to achieve their preferred
+                            goals. An application were users are able to derive answers to their specific questions. A
+                            service in which the site owner advances their own goals by providing this functionality,
+                            potentially by being a regular user themselves.</p>
                     </p>
-                    <p>User Centric Frontend – Pizza Recipe Database
-                        HTML / CSS / Python / flask / MongoDB (NoSQL)
-                        An application that implements CRUD, that allows users to manage a common dataset about pizza
-                        recipes. Users can share their own data with the community and benefit from having convenient
-                        access to data provided by all other members. Site owner advances their own goals by providing
-                        this functionality, growing the dataset and by being a user themselves. Users can check and add
-                        to a catalogue of pizza recipes.
+                    <p><b>User Centric Frontend – Pizza Recipe Database</b>
+                        <i>HTML / CSS / Python / flask / MongoDB (NoSQL)</i>
+                        <p>An application that implements CRUD, that allows users to manage a common dataset about
+                            pizza
+                            recipes. Users can share their own data with the community and benefit from having
+                            convenient
+                            access to data provided by all other members. Site owner advances their own goals by
+                            providing
+                            this functionality, growing the dataset and by being a user themselves. Users can check and
+                            add
+                            to a catalogue of pizza recipes.</p>
                     </p>
-                    <p>Data Centric Frontend – Pizza Training Course Website.
-                        HTML / CSS / Python / JS / Django / MongoDB
-                        This website allows existing and new fans to discover a bit about the band "Century Thirteen".
-                        It's a place to find information about the band’s latest ventures and future gigs. It allows
-                        fans to discover the newest songs and bands origins. It provides a gateway for Century
-                        Thirteen's social media accounts. Potential bookers can easily contact the band.
+                    <p><b>Data Centric Frontend – Pizza Training Course Website.</b>
+                        <i>HTML / CSS / Python / JS / Django / MongoDB</i>
+                        <p>This website allows existing and new fans to discover a bit about the band "Century
+                            Thirteen".
+                            It's a place to find information about the band’s latest ventures and future gigs. It allows
+                            fans to discover the newest songs and bands origins. It provides a gateway for Century
+                            Thirteen's social media accounts. Potential bookers can easily contact the band.</p>
                     </p>
+                    <hr />
+                </div>
+            </div>
+
+            <!-- Skills section on sm and xs-->
+            <div class="col-12 d-lg-none personal-info">
+                <div class="col-12">
+                    <!-- Skills -->
+                    <h5><b>PROFESSIONAL SKILLS</b></h5>
+                    <hr class="white-line" />
+                    <p><b>Management Skills</b></p>
+                    <ul>
+                        <li>Customer relations</li>
+                        <li>Problem solving</li>
+                        <li>People management and administration</li>
+                        <li>Sales reporting</li>
+                        <li>Training, mentoring, and coaching</li>
+                        <li>Health safety and compliance</li>
+                    </ul>
+                    <p><b>Technical Skills</b></p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL/noSQL</li>
+                        <li>Django</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Version Control</li>
+                        <li>Testing Frameworks</li>
+                        <li>Restful APIs</li>
+                        <li>Git</li>
+                        <li>AWS</li>
+                        <li>Travis</li>
+                    </ul>
+                </div>
+
+                <div class="col-12">
+                    <!-- Interests -->
+                    <h5><b>INTERESTS</b></h5>
+                    <hr class="white-line" />
+                    <ul>
+                        <li>Activities: Chess, hillwalking</li>
+                        <li>Shows: The Office, Parks and Rec</li>
+                        <li>Movies: MCU, Sci-Fi, Comedies</li>
+                        <li>Games: Borderlands, Resident Evil, Crash Bandicoot, Doom</li>
+                    </ul>
+                </div>
+
+                <div class="col-12">
+                    <!-- References -->
+                    <h5><b>REFERENCES</b></h5>
+                    <hr class="white-line" />
+                    <p>Available on request</p>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
