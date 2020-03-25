@@ -3,13 +3,45 @@
     background-image: url(images/MVIMG_20180526_152124_2\ \(2\).jpg);
     background-position: center;
     background-size: cover;
-    height: 150px;
+    height: 170px;
 }
 
 
 /* Text --------------------------------------------*/
 
+.my-name {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
 
+ul {
+    padding-inline-start: 16px;
+}
+
+.default-font{
+    font-family: Calibri;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+a:visited {
+    color: white;
+    text-decoration: none;
+  }
+a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+hr.white-line {
+    border-top: 1px solid white;
+}
 
 /* Shapes ------------------------------------------*/
 
@@ -17,3 +49,15 @@
     background-color: #393e51;
     color: floralwhite;
 }
+
+/* Media queries -----------------------------------*/
+
+
+@media only screen and (max-width: 890px) {
+    .xs-text {
+        font-size: 12px !important;
+    }
+    .my-name {
+        font-size: 38px !important;
+    }
+  }
