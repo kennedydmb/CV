@@ -1,3 +1,19 @@
-.test {
-    color: blue;
+/* Images ------------------------------------------*/
+.profile-picture {
+    background-image: url(images/MVIMG_20180526_152124_2\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
+
+/* Text --------------------------------------------*/
+
+
+
+/* Shapes ------------------------------------------*/
+
+.personal-info {
+    background-color: #393e51;
+    color: floralwhite;
 }
