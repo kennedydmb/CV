@@ -43,6 +43,10 @@ hr.white-line {
     border-top: 1px solid white;
 }
 
+h1, h2, h3, h4, h5 {
+    padding-top: 20px;
+}
+
 /* Shapes ------------------------------------------*/
 
 .personal-info {
@@ -54,10 +58,19 @@ hr.white-line {
 
 
 @media only screen and (max-width: 890px) {
-    .xs-text {
-        font-size: 12px !important;
-    }
     .my-name {
         font-size: 38px !important;
     }
   }
+
+.green-test {
+background-color: green;
+width:40px;
+height:40px;
+}
+
+.blue-test {
+    background-color: blue;
+    width:40px;
+    height:40px;
+}
