@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5 {
     padding-top: 20px;
 }
 
+.xs-links {
+    font-size: 40px;
+}
+
 /* Shapes ------------------------------------------*/
 
 .personal-info {
