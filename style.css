@@ -29,21 +29,12 @@ ul {
     font-family: Calibri;
 }
 
-.business-card a:link {
-    color: white;
-    text-decoration: none;
-  }
-.business-card a:visited {
-    color: white;
+a:link.black-a, a:visited.black-a, a:hover.black-a, a:active.black-a {
+    color: black;
     text-decoration: none;
   }
 
-.business-card a:hover {
-    color: white;
-    text-decoration: none;
-  }
-
-.business-card a:active {
+a:link.white-a, a:visited.white-a, a:hover.white-a, a:active.white-a  {
     color: white;
     text-decoration: none;
   }
