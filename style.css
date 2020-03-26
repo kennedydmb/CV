@@ -8,6 +8,10 @@
 
 /* Text --------------------------------------------*/
 
+.cv-dwn {
+    padding-left: 5px;
+}
+
 .business-card {
     min-height: 170px;
 }
@@ -25,19 +29,21 @@ ul {
     font-family: Calibri;
 }
 
-a:link {
+.business-card a:link {
     color: white;
     text-decoration: none;
   }
-a:visited {
+.business-card a:visited {
     color: white;
     text-decoration: none;
   }
-a:hover {
+
+.business-card a:hover {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
   }
-a:active {
+
+.business-card a:active {
     color: white;
     text-decoration: none;
   }
