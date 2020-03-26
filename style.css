@@ -3,14 +3,17 @@
     background-image: url(images/MVIMG_20180526_152124_2\ \(2\).jpg);
     background-position: center;
     background-size: cover;
-    height: 170px;
 }
 
 
 /* Text --------------------------------------------*/
 
+.business-card {
+    min-height: 170px;
+}
+
 .my-name {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0px;
 }
 
@@ -48,7 +51,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .xs-links {
-    font-size: 40px;
+    font-size: 35px;
+    text-align: center;
 }
 
 /* Shapes ------------------------------------------*/
@@ -60,21 +64,8 @@ h1, h2, h3, h4, h5 {
 
 /* Media queries -----------------------------------*/
 
-
 @media only screen and (max-width: 890px) {
     .my-name {
-        font-size: 38px !important;
+      font-size: 20px !important;
     }
   }
-
-.green-test {
-background-color: green;
-width:40px;
-height:40px;
-}
-
-.blue-test {
-    background-color: blue;
-    width:40px;
-    height:40px;
-}
